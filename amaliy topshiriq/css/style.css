@@ -1,0 +1,245 @@
+header{
+     justify-content: space-around;
+     display: flex;
+     margin: 30px 0 30px;
+}
+header div span{
+     padding: 10px;
+}
+.carousel-section{
+     color: wheat;
+}
+.container{
+    overflow-x: hidden;
+}
+.fixed-card i{
+     display: inline;
+     font-size: 30px;
+}
+.center{
+     width: max-content;
+     margin: 0 auto;
+}
+.back {
+     width: 100%;
+     height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top;
+     color: #000;
+     border-radius: 10px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+     position: relative;
+ }
+ .my-text{
+     position: absolute;
+     right: 10px;
+     top: 50px;
+ }
+ .left-image {
+     background-image: url('../images/6.jpg');
+ }
+ 
+ .right-image {
+     background-image: url('../images/7.jpg');
+ }
+ .my-text{
+     font-size:15px;
+ }
+ .my-width{
+     width: 33%;
+ }
+ .my-cards {
+     width: min-content;
+     margin: 0 auto;
+ }
+
+.banner {
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    background: url(../images/13.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    position: relative;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(229, 246, 255, 1);
+    border-radius: 5px;
+}
+
+.code {
+    padding: 5px 10px;
+    border: 2px dashed #000;
+    background-color: #f8f8f8;
+    margin: 0 10px;
+}
+.image{
+    width: 100%;
+    height: 50vh;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image1{
+    background-image: url(../images/14.png);
+}
+.image3{
+    background-image: url(../images/16.jpg);
+}
+.first{
+    font-size: x-small;
+    padding: 10px;
+}
+.second{
+    font-size: small;
+}
+.image2{
+    background-image: url(../images/15.png);
+    width: 100%;
+    height: 50vh;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my-width{
+    width: min-content;
+    margin: auto;
+}
+.black-body{
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100%;
+    height: 100vh;
+}
+.at-center{
+    margin: 50px 20px 0 0;
+    flex-wrap: nowrap;
+}
+.my-small-text{
+    font-size: xx-small;
+}
+.my-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avatar1{
+    background-image: url(../images/17.png);
+}
+.avatar2{
+    background-image: url(../images/18.png);
+}
+.avatar3{
+    background-image: url(../images/19.png);
+}
+.avatar4{
+    background-image: url(../images/20.png);
+}
+.avatar-info{
+    height: 50px;
+}
+.my-position{
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+.my-height{
+    height: 400px;
+}
+.carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item:active {
+    opacity: 1;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+    opacity: 0;
+}
+
+.carousel-item:active {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    opacity: 1;
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    opacity: 0;
+}
+.carousel-control-prev-icon {
+    background-color: rgb(103, 103, 103);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+}
+.carousel-control-next-icon {
+    background-color: rgb(103, 103, 103);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    border: 2px solid black;
+    position: relative;
+}
+ @media (max-width: 768px) {
+    .images-section{
+        margin-top: 350px;
+    }
+    .my-position{
+        position: absolute;
+        top: 0;
+        left: 100px;
+    }
+     .fixed-flexible {
+         display: none;
+     }
+     .my-margin{
+        margin-top: 200px;
+     }
+     .my-cards {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+ 
+     .my-car {
+         margin-top: 20px;
+         width: 100%;
+         max-width: 90%;
+     }
+ 
+     .card img {
+         max-height: 220px;
+         object-fit: cover;
+     }
+ }
+ 
